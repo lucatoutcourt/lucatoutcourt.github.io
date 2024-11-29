@@ -118,9 +118,34 @@ h3 {
     border-top: 1px solid black;
 }
 
-.font_line p {
+p {
     font-family: 'Source Code Pro';
     font-weight: 400;
+}
+
+.text {
+    padding: 1em 0 1em 0;
+}
+
+.text h1 {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 200;
+    font-size: 5em;
+    margin: 0;
+    font-style: italic;
+    font-optical-sizing: none;
+    line-height: 1em;
+    padding: 1% 0 1% 0;
+    
+}
+.text h2 {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 400;
+    font-size: 1.05em;
+    margin: 0;
+    font-style: initial;
+    font-optical-sizing: none;
+    line-height: auto;
 }
 
 .collapsible {
@@ -135,7 +160,7 @@ h3 {
   overflow: hidden;
 }
 
-p strong {
+strong {
     font-weight: 900;
 }
 
@@ -185,4 +210,31 @@ p strong {
     letter-spacing: -2%;
     line-height: 1em;
     margin: 0 0 0 0;
+}
+
+nav div:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.over {
+    position: absolute; 
+    background-color: white;
+    z-index: 1;
+    padding: 0em 0 0 1em;
+    width: 300px;
+    border: 1px solid black;
+    border-top: 0px solid black;
+}
+
+.over p {
+    padding-bottom: 0;
+}
+
+no {
+    opacity: 0;
+}
+
+half {
+    opacity: .5;
 }
