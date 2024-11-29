@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'Liffey-h';
+  src: url("/fonts/Liffey-Heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Liffey-r';
+  src: url("/fonts/Liffey-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker';
+  src: url("/fonts/clean/CleanMarker-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker BI';
+  src: url("/fonts/clean/CleanMarker-BlackItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker MC';
+  src: url("/fonts/clean/CleanMarker-Medium-Condensed.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker M';
+  src: url("/fonts/clean/CleanMarker-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker L';
+  src: url("/fonts/clean/CleanMarker-Light-Condensed.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker LI';
+  src: url("/fonts/clean/CleanMarker-Light-Condensed-Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Edlinger';
+  src: url("/fonts/Edlinger-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Poissons';
+  src: url("/fonts/poissons-Micro.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Gothic';
+  src: url("/fonts/anotherpseudogothic-Regular.otf") format("opentype");
+}
+
+#liffey {
+    font-family: 'Liffey-h', sans-serif;
+    font-feature-settings: "liga" 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1em;
+    margin: .5em 0 .5em 0;
+}
+
+h2 {
+    font-size: 3em;
+    margin: .3em 0 .3em 0;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+#liffey h4 {
+    font-family: 'Liffey-h', sans-serif;
+    font-size: 1.1em;
+}
+
+#liffey h5 {
+    font-family: 'Liffey-r', sans-serif;
+    font-size: 1em;
+}
+
+#liffey h6 {
+    font-family: 'Liffey-r', sans-serif;
+    font-size: .75em;
+}
+
+#liffey h3 .med {
+    font-size: 3em;
+}
+
+.ss {
+    font-feature-settings: "ss01";
+    display: inline;
+}
+
+#clean {
+    font-family: 'Clean Marker', sans-serif;
+}
+
+#edlinger {
+    font-family: 'Edlinger', sans-serif;
+}
+#poissons {
+    font-family: 'Poissons', serif;
+    font-size: 6em;
+}
+#gothic {
+    font-family: 'Gothic', serif;
+    font-size: 6em;
+}
+
+.font_line {
+    border-bottom: 2px solid black;
+}
+
+.line {
+    border-top: 1px solid black;
+}
+
+.font_line p {
+    font-family: 'Source Code Pro';
+    font-weight: 400;
+}
+
+.collapsible {
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+}
+
+p strong {
+    font-weight: 900;
+}
+
+* {
+    font-weight: initial;
+}
+
+#clean i {
+    font-family: 'Clean Marker BI', sans-serif;
+    font-style: normal;
+}
+
+#clean mc {
+    font-family: 'Clean Marker MC', sans-serif;
+    font-style: normal;
+}
+
+#clean m {
+    font-family: 'Clean Marker M', sans-serif;
+    font-style: normal;
+}
+
+#clean l {
+    font-family: 'Clean Marker L', sans-serif;
+    font-style: normal;
+}
+
+#clean il {
+    font-family: 'Clean Marker LI', sans-serif;
+    font-style: normal;
+}
+
+.big {
+    font-size: 2.5em;
+    letter-spacing: -2%;
+    line-height: 1em;
+}
+
+#clean h5 {
+    font-family: 'Clean Marker M', sans-serif;
+    letter-spacing: 1.5%;
+    line-height: 1.15em;
+}
+
+.vbig {
+    font-size: 6em;
+    letter-spacing: -2%;
+    line-height: 1em;
+    margin: 0 0 0 0;
+}
