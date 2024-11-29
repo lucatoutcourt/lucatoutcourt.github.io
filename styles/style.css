@@ -105,6 +105,11 @@ h3 {
     font-size: 6em;
 }
 
+#miss {
+    font-family: 'Source Code Pro';
+    color: rgb(200,200,200);
+}
+
 .font_line {
     border-bottom: 2px solid black;
 }
