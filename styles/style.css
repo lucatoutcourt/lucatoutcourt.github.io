@@ -7,6 +7,22 @@
   src: url("/fonts/Liffey-Regular.otf") format("opentype");
 }
 @font-face {
+  font-family: 'Gothic';
+  src: url("/fonts/rationalgothic-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Gothic-c';
+  src: url("/fonts/rationalgothic-Condensed.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Capd';
+  src: url("/fonts/Tolosa-Display.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Capt';
+  src: url("/fonts/Tolosa-Text.otf") format("opentype");
+}
+@font-face {
   font-family: 'Clean Marker';
   src: url("/fonts/clean/CleanMarker-Black.otf") format("opentype");
 }
@@ -39,14 +55,35 @@
   src: url("/fonts/poissons-Micro.otf") format("opentype");
 }
 @font-face {
-  font-family: 'Gothic';
-  src: url("/fonts/anotherpseudogothic-Regular.otf") format("opentype");
+  font-family: 'PoissonsD';
+  src: url("/fonts/poissons-Light.otf") format("opentype");
 }
+
 
 #liffey {
     font-family: 'Liffey-h', sans-serif;
     font-feature-settings: "liga" 0;
 }
+
+#cap {
+    font-family: 'capd', serif;
+}
+
+#cap .big {
+    font-size: 2.5em;
+    letter-spacing: normal;
+}
+
+#cap .vbig {
+    font-size: 5.8em;
+}
+
+#cap h5 {
+    font-family: 'capt', serif;
+    line-height: 1.2em;
+    font-size: 1.1em;
+}
+
 
 h3,
 h4,
@@ -57,8 +94,8 @@ h6 {
 }
 
 h2 {
-    font-size: 3em;
-    margin: .3em 0 .3em 0;
+    font-size: 3.4em;
+    margin: .1em 0 .1em 0;
 }
 
 h3 {
@@ -68,6 +105,11 @@ h3 {
 #liffey h4 {
     font-family: 'Liffey-h', sans-serif;
     font-size: 1.1em;
+}
+
+#liffey h2 {
+    font-size: 2.9em;
+    padding: .4em 0 .1em;
 }
 
 #liffey h5 {
@@ -96,13 +138,32 @@ h3 {
 #edlinger {
     font-family: 'Edlinger', sans-serif;
 }
+
 #poissons {
     font-family: 'Poissons', serif;
-    font-size: 6em;
+    font-size: x-large;
 }
+
+#poissons p {
+    font-size: initial;
+}
+
+#poissons .comp {
+     font-size: 5em;
+}
+
+#poissons .comp strong {
+     font-weight: normal;
+    font-family: "PoissonsD";
+}
+
+#poissons .vbig {
+     font-family: "PoissonsD";
+    font-size: 9em;
+}
+
 #gothic {
     font-family: 'Gothic', serif;
-    font-size: 6em;
 }
 
 #miss {
@@ -148,11 +209,20 @@ p {
     line-height: auto;
 }
 
+.text a:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
 .collapsible {
   cursor: pointer;
   border: none;
   text-align: left;
   outline: none;
+}
+
+.collapsible:hover{
+  opacity: .8;
 }
 
 .content {
@@ -171,6 +241,11 @@ strong {
 #clean i {
     font-family: 'Clean Marker BI', sans-serif;
     font-style: normal;
+}
+
+#clean p i {
+    font-family: 'Source Code Pro', sans-serif;
+    font-style: italic;
 }
 
 #clean mc {
@@ -205,6 +280,17 @@ strong {
     line-height: 1.15em;
 }
 
+#gothic strong {
+    font-weight: normal;
+    font-family: 'Gothic-c', serif;
+    font-size: .9em
+} 
+
+#gothic h5 {
+    line-height: 1em;
+    font-size: 1.3em;
+}
+
 .vbig {
     font-size: 6em;
     letter-spacing: -2%;
@@ -221,10 +307,10 @@ nav div:hover {
     position: absolute; 
     background-color: white;
     z-index: 1;
-    padding: 0em 0 0 1em;
+    padding: 0 0 0 1em;
     width: 300px;
     border: 1px solid black;
-    border-top: 0px solid black;
+    border-top: 0 solid black;
 }
 
 .over p {
