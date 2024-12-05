@@ -3,6 +3,10 @@
   src: url("/fonts/Quadrata-Regular.otf") format("opentype");
 }
 @font-face {
+  font-family: 'cadres';
+  src: url("/fonts/cadres-Regular.otf") format("opentype");
+}
+@font-face {
   font-family: 'printemps';
   src: url("/fonts/Printemps-Regular.otf") format("opentype");
 }
@@ -77,6 +81,21 @@
 @font-face {
   font-family: 'PoissonsD';
   src: url("/fonts/poissons-Light.otf") format("opentype");
+}
+#cadre {
+    font-family: 'cadres'
+}
+#cadre .comp{
+    font-size: 7em;
+    margin: -.2em 0 0 0;
+}
+#cadre .big{
+    font-size: 4em;
+    margin: -.2em 0;
+}
+#cadre .vbig{
+    font-size: 10em;
+    margin: -.1em 0 0 0;
 }
 #speed {
     font-family: 'speed';
