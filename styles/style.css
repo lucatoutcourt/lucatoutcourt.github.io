@@ -3,6 +3,14 @@
   src: url("/fonts/Quadrata-Regular.otf") format("opentype");
 }
 @font-face {
+  font-family: 'printemps';
+  src: url("/fonts/Printemps-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'speed';
+  src: url("/fonts/Speed-Regular.otf") format("opentype");
+}
+@font-face {
   font-family: 'stroke';
   src: url("/fonts/strokestencil-Regular.otf") format("opentype");
 }
@@ -70,23 +78,69 @@
   font-family: 'PoissonsD';
   src: url("/fonts/poissons-Light.otf") format("opentype");
 }
-
-#carto {
-    font-family: 'Cartographie', sans-serif;
+#speed {
+    font-family: 'speed';
 }
-
+#print {
+    font-family: 'printemps';
+}
+#print .vbig {
+    line-height: .8em;
+    margin: 0 0 .1em 0;
+}
+#print .big {
+    margin-bottom: 0;
+}
+#speed h2{
+    font-size: 4.4em;
+    margin: 0;
+}
+#speed .vbig{
+    padding-right: .01em;
+    margin: 0 0 .2em 0;
+    line-height: .9em;
+}
+#speed .big{
+    margin: .2em 0 0 0;
+}
 #quad {
     font-family: 'Quadrata', sans-serif;
     font-size: 1em;
 }
+
+#test {
+    font-family: 'Cartographie';
+}
+
+#test .vbig {
+    font-size: 9.6em;
+    line-height: .7em;
+    margin: 0 0 .2em 0;
+}
+
+#test .vbig i {
+    font-size: .7em;
+}
 #strokes {
     font-family: 'stroke', 'Source Code Pro';
+    color: black;
+}
+
+#strokes i,
+#test i {
+    font-family: 'source code pro';
+    font-style: normal;
     color: rgb(200,200,200);
 }
 
-#strokes i {
-    font-style: normal;
-    color: black;
+#strokes .big {
+    font-size: 5em;
+    margin: .2em 0;
+}
+
+#strokes .vbig {
+    font-size: 13em;
+    margin: 0;
 }
 
 #quad .big {
@@ -96,7 +150,7 @@
 }
 
 #quad .vbig {
-    font-size: 7em;
+    font-size: 8em;
 }
 
 #liffey {
@@ -245,6 +299,13 @@ p {
     font-weight: 400;
 }
 
+p a {
+    text-decoration: underline;
+}
+
+p a:hover {
+    opacity: .5;
+}
 .text {
     padding: 1em 0 1em 0;
 }
