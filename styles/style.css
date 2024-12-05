@@ -3,6 +3,10 @@
   src: url("/fonts/Quadrata-Regular.otf") format("opentype");
 }
 @font-face {
+  font-family: 'stroke';
+  src: url("/fonts/strokestencil-Regular.otf") format("opentype");
+}
+@font-face {
   font-family: 'Cartographie';
   src: url("/fonts/Cartographie-Semi-Onciale.otf") format("opentype");
 }
@@ -66,13 +70,25 @@
   font-family: 'PoissonsD';
   src: url("/fonts/poissons-Light.otf") format("opentype");
 }
+
 #carto {
-    font-family: 'Cartographie';
+    font-family: 'Cartographie', sans-serif;
 }
+
 #quad {
     font-family: 'Quadrata', sans-serif;
     font-size: 1em;
 }
+#strokes {
+    font-family: 'stroke', 'Source Code Pro';
+    color: rgb(200,200,200);
+}
+
+#strokes i {
+    font-style: normal;
+    color: black;
+}
+
 #quad .big {
     letter-spacing: initial;
     font-size: 4em;
