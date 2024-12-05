@@ -82,6 +82,50 @@
   font-family: 'PoissonsD';
   src: url("/fonts/poissons-Light.otf") format("opentype");
 }
+@font-face {
+  font-family: 'Relief';
+  src: url("/fonts/ReliefSingleLineOutline-Regular.woff2");
+}
+@font-face {
+  font-family: 'brennus';
+  src: url("/fonts/Brennus-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'turfu';
+  src: url("/fonts/turfu.otf") format("opentype");
+}
+#brennus{
+    font-family: 'brennus';
+    letter-spacing: normal;
+}
+#turfu{
+    font-family: 'turfu';
+    letter-spacing: normal;
+}
+#turfu .big{
+    letter-spacing: normal;
+    font-size: 4em;
+}
+#turfu .vbig{
+    font-feature-settings: "ss10";
+}
+#brennus .vbig{
+    margin: .1em 0;
+}
+#brennus .big{
+    margin: .1em 0;
+    letter-spacing: normal;
+}
+#relief {
+    font-family: 'Relief';
+}
+#relief .vbig {
+    font-size: 4.3em;
+    margin: 0 0 .2em 0;
+}
+#relief .big {
+    margin-bottom: 0;
+}
 #cadre {
     font-family: 'cadres'
 }
@@ -90,7 +134,7 @@
     margin: -.2em 0 0 0;
 }
 #cadre .big{
-    font-size: 4em;
+    font-size: 3em;
     margin: -.2em 0;
 }
 #cadre .vbig{
@@ -320,6 +364,7 @@ p {
 
 p a {
     text-decoration: underline;
+    color: black;
 }
 
 p a:hover {
