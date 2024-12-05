@@ -101,6 +101,7 @@
 #turfu{
     font-family: 'turfu';
     letter-spacing: normal;
+    padding-top: .5em;
 }
 #turfu .big{
     letter-spacing: normal;
@@ -395,6 +396,11 @@ p a:hover {
     line-height: auto;
 }
 
+.text h2 a {
+    text-decoration: none;
+    color: black;
+}
+
 .text a:hover {
     opacity: .5;
     cursor: pointer;
@@ -513,4 +519,17 @@ half {
     opacity: .5;
 }
 
+nav p a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    padding-top: 1em;
+    text-align: right;
+}
+footer div p {
+    opacity: .5;
+    padding-right: 1em;
+}
 div:focus { outline: none; }
