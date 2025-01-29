@@ -110,6 +110,9 @@
 #turfu .vbig{
     font-feature-settings: "ss10";
 }
+#clean .vbig {
+    font-size: 6em;
+}
 #brennus .vbig{
     margin: .1em 0;
 }
@@ -222,17 +225,21 @@
     font-feature-settings: "liga" 0;
 }
 
+#clean h3 {
+    font-size: 3em;
+}
+
 #cap {
     font-family: 'capd', serif;
 }
 
 #cap .big {
-    font-size: 2.5em;
+    font-size: 3em;
     letter-spacing: normal;
 }
 
 #cap .vbig {
-    font-size: 5.8em;
+    font-size: 7em;
 }
 
 #cap h5 {
@@ -256,7 +263,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 #liffey h4 {
