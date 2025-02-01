@@ -223,6 +223,7 @@
 #liffey {
     font-family: 'Liffey-h', sans-serif;
     font-feature-settings: "liga" 0;
+    opacity: .5;
 }
 
 #clean h3 {
@@ -297,6 +298,7 @@ h3 {
 
 #clean {
     font-family: 'Clean Marker', sans-serif;
+    opacity: .5;
 }
 
 #edlinger {
@@ -304,7 +306,8 @@ h3 {
 }
 
 #edlinger h5 {
-    font-size: 2em;
+    font-size: 2.6em;
+    line-height: 1em;
 }
 
 #edlinger .big {
