@@ -1,50 +1,10 @@
 @font-face {
-  font-family: 'quadrata';
-  src: url("/fonts/quadrata-Regular.otf") format("opentype");
-}
-@font-face {
-  font-family: 'cadres';
-  src: url("/fonts/cadres-Regular.otf") format("opentype");
-}
-@font-face {
-  font-family: 'printemps';
-  src: url("/fonts/Printemps-Regular.otf") format("opentype");
-}
-@font-face {
-  font-family: 'speed';
-  src: url("/fonts/Speed-Regular.otf") format("opentype");
-}
-@font-face {
-  font-family: 'stroke';
-  src: url("/fonts/strokestencil-Regular.otf") format("opentype");
-}
-@font-face {
-  font-family: 'Cartographie';
-  src: url("/fonts/Cartographie-Semi-Onciale.otf") format("opentype");
-}
-@font-face {
   font-family: 'Liffey-h';
   src: url("/fonts/Liffey-Heavy.otf") format("opentype");
 }
 @font-face {
   font-family: 'Liffey-r';
   src: url("/fonts/Liffey-Regular.otf") format("opentype");
-}
-@font-face {
-  font-family: 'Gothic';
-  src: url("/fonts/rationalgothic-Regular.otf") format("opentype");
-}
-@font-face {
-  font-family: 'Gothic-c';
-  src: url("/fonts/rationalgothic-Condensed.otf") format("opentype");
-}
-@font-face {
-  font-family: 'Capd';
-  src: url("/fonts/Tolosa-Display.otf") format("opentype");
-}
-@font-face {
-  font-family: 'Capt';
-  src: url("/fonts/Tolosa-Text.otf") format("opentype");
 }
 @font-face {
   font-family: 'Clean Marker';
@@ -74,152 +34,49 @@
   font-family: 'Edlinger';
   src: url("/fonts/Edlinger-Regular.otf") format("opentype");
 }
-@font-face {
-  font-family: 'Poissons';
-  src: url("/fonts/poissons-Micro.otf") format("opentype");
+.dlig {
+    font-variant-ligatures: discretionary-ligatures;
 }
-@font-face {
-  font-family: 'PoissonsD';
-  src: url("/fonts/poissons-Light.otf") format("opentype");
+.background {
+    background-color: grey;
 }
-@font-face {
-  font-family: 'Relief';
-  src: url("/fonts/ReliefSingleLineOutline-Regular.woff2");
+
+.article {
+    font-family: 'Vollkorn';
 }
-@font-face {
-  font-family: 'brennus';
-  src: url("/fonts/Brennus-Regular.otf") format("opentype");
+
+.article h1 {
+    font-size: 1.5em;
+    font-weight: 900;
 }
-@font-face {
-  font-family: 'turfu';
-  src: url("/fonts/turfu.otf") format("opentype");
+
+.article p{
+    font-family: 'Vollkorn', serif;
+    font-size: 1.1em;
 }
-#brennus{
-    font-family: 'brennus';
-    letter-spacing: normal;
+
+.article img {
+    max-height: 20em;
+    margin: auto;
 }
-#turfu{
-    font-family: 'turfu';
-    letter-spacing: normal;
-    padding-top: .5em;
+
+.article .stroke {
+    border: 2px solid black;
+    padding: .5% 1%;
+    box-sizing: border-box;
 }
-#turfu .big{
-    letter-spacing: normal;
-    font-size: 4em;
+
+.article .stroke h1 {
+    margin: 0;
 }
-#turfu .vbig{
-    font-feature-settings: "ss10";
+
+.article .stroke .last{
+    text-align-last: justify;
 }
+
 #clean .vbig {
     font-size: 6em;
 }
-#brennus .vbig{
-    margin: .1em 0;
-}
-#brennus .big{
-    margin: .1em 0;
-    letter-spacing: normal;
-}
-#relief {
-    font-family: 'Relief';
-}
-#relief .vbig {
-    font-size: 4.3em;
-    margin: 0 0 .2em 0;
-}
-#relief .big {
-    margin-bottom: 0;
-}
-#cadre {
-    font-family: 'cadres'
-}
-#cadre .comp{
-    font-size: 7em;
-    margin: -.2em 0 0 0;
-}
-#cadre .big{
-    font-size: 3em;
-    margin: -.2em 0;
-}
-#cadre .vbig{
-    font-size: 10em;
-    margin: -.1em 0 0 0;
-}
-#speed {
-    font-family: 'speed';
-}
-#print {
-    font-family: 'printemps';
-}
-#print .vbig {
-    line-height: .8em;
-    margin: 0 0 .1em 0;
-}
-#print .big {
-    margin-bottom: 0;
-}
-#speed h2{
-    font-size: 4.4em;
-    margin: 0;
-}
-#speed .vbig{
-    padding-right: .01em;
-    margin: 0 0 .2em 0;
-    line-height: .9em;
-}
-#speed .big{
-    margin: .2em 0 0 0;
-}
-#quad {
-    font-family: 'Quadrata', sans-serif;
-    font-size: 1em;
-}
-
-#test {
-    font-family: 'Cartographie';
-}
-
-#test .vbig {
-    font-size: 9.6em;
-    line-height: .7em;
-    margin: 0 0 .2em 0;
-}
-
-#test .vbig i {
-    font-size: .7em;
-}
-#strokes {
-    font-family: 'stroke', 'Source Code Pro';
-    color: black;
-}
-
-#strokes i,
-#test i {
-    font-family: 'source code pro';
-    font-style: normal;
-    color: rgb(200,200,200);
-}
-
-#strokes .big {
-    font-size: 5em;
-    margin: .2em 0;
-}
-
-#strokes .vbig {
-    font-size: 13em;
-    margin: 0;
-}
-
-#quad .big {
-    letter-spacing: initial;
-    font-size: 4em;
-    margin: .3em 0 0 0;
-}
-
-#quad .vbig {
-    font-size: 8em;
-}
-
 #liffey {
     font-family: 'Liffey-h', sans-serif;
     font-feature-settings: "liga" 0;
@@ -229,27 +86,6 @@
 #clean h3 {
     font-size: 3em;
 }
-
-#cap {
-    font-family: 'capd', serif;
-}
-
-#cap .big {
-    font-size: 3em;
-    letter-spacing: normal;
-}
-
-#cap .vbig {
-    font-size: 7em;
-}
-
-#cap h5 {
-    font-family: 'capt', serif;
-    line-height: 1.2em;
-    font-size: 1.1em;
-}
-
-
 h3,
 h4,
 h5,
@@ -324,41 +160,7 @@ h3 {
     font-size: x-large;
 }
 
-#poissons p {
-    font-size: initial;
-}
 
-#poissons .grid_8 * {
-    line-height: 1em;
-    margin: 0 0 0 0;
-}
-
-#poissons .comp {
-    font-size: 7em;
-    line-height: 1em;
-    margin-top: -.3em;
-}
-
-#poissons .comp strong {
-    font-weight: normal;
-    font-family: "PoissonsD";
-}
-
-#poissons .vbig {
-    font-family: "PoissonsD";
-    font-size: 9.9em;
-    line-height: .4em;
-    margin-bottom: .2em
-}
-
-#gothic {
-    font-family: 'Gothic', serif;
-}
-
-#gothic p strong {
-    font-family: 'Source Code Pro', serif;
-    font-weight: 900;
-}
 
 #miss {
     font-family: 'Source Code Pro';
@@ -494,16 +296,6 @@ strong {
     line-height: 1.15em;
 }
 
-#gothic strong {
-    font-weight: normal;
-    font-family: 'Gothic-c', serif;
-    font-size: .9em
-} 
-
-#gothic h5 {
-    line-height: 1em;
-    font-size: 1.3em;
-}
 
 .vbig {
     font-size: 6em;
