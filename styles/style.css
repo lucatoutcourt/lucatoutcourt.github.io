@@ -129,6 +129,12 @@ header .right {
 .tooltip:hover:before {
   content: "Learn more";
 }
+.tooltipend:hover span {
+  display: none;
+}
+.tooltipend:hover:before {
+  content: "Learn less";
+}
 
 .article {
   max-width: 45em;
