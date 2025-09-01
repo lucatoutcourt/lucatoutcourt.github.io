@@ -43,6 +43,15 @@
 .liffey {
   font-family: 'Liffey H';
 }
+
 * {
   font-family: source code pro;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
 }
