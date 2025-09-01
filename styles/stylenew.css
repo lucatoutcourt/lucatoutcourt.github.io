@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Liffey H';
+  src: url("/fonts/Liffey-Heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Liffey';
+  src: url("/fonts/Liffey-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker';
+  src: url("/fonts/clean/CleanMarker-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker BI';
+  src: url("/fonts/clean/CleanMarker-BlackItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker MC';
+  src: url("/fonts/clean/CleanMarker-Medium-Condensed.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker M';
+  src: url("/fonts/clean/CleanMarker-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker L';
+  src: url("/fonts/clean/CleanMarker-Light-Condensed.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Clean Marker LI';
+  src: url("/fonts/clean/CleanMarker-Light-Condensed-Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Edlinger';
+  src: url("/fonts/Edlinger-Regular.otf") format("opentype");
+}
+.clean {
+  font-family: 'Clean Marker'
+}
+.edlinger {
+    font-family: 'Edlinger';
+}
+.liffey {
+  font-family: 'Liffey H';
+}
+* {
+  font-family: source code pro;
+}
