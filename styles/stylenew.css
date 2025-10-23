@@ -41,7 +41,7 @@
     color: red;
   }
 }
-@media (min-width: 640px) {
+@media (min-width: 781px) {
   html {
     font-size: 1rem;
   }
