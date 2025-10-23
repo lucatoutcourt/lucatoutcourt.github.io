@@ -35,13 +35,12 @@
   src: url("/fonts/Edlinger-Regular.otf") format("opentype");
 }
 
-
-@media (max-width: 480px) {
+@media (max-width: 641px) {
   html {
     font-size: 1.3rem;
   }
 }
-@media (min-width: 480px) {
+@media (min-width: 641px) {
   html {
     font-size: 1rem;
   }
@@ -63,7 +62,17 @@
  font-feature-settings: "liga" 1, "dlig" 1;
 }
 
+.article {
+  margin: 1em 4rem;
+  line-height: 1.5em;
+}
 
-img {
-  width: 100%;
+.img {
+  padding-left: max;
+  display: flex;
+  justify-content: center;
+}
+
+.big img {
+  height: 20rem;
 }
