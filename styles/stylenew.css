@@ -37,13 +37,9 @@
 
 @media (orientation: portrait), (max-width: 780px) {
   html {
-    font-size: 1.2rem;
-    color: red;
+    font-size: 1.4rem;
   }
 }
-
-
-
 
 @media (min-width: 781px) {
   html {
@@ -79,5 +75,5 @@
 }
 
 .big img {
-  height: 20rem;
+  height: 15rem;
 }
