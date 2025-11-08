@@ -146,7 +146,8 @@ h1 {
 }
 
 .menu {
-  display: inline;
+  display: flex;                    /* arrange items horizontally */
+  justify-content: space-between;
 }
 
 .spaceline {
