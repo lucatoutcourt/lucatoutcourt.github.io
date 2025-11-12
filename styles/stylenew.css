@@ -96,6 +96,9 @@ a {
 a:hover{
   color: grey;
 }
+.grey {
+  color: grey;
+}
 
 .link {
   text-decoration: underline;
