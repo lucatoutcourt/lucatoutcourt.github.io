@@ -34,9 +34,25 @@
   font-family: 'Edlinger';
   src: url("/fonts/Edlinger-Regular.otf") format("opentype");
 }
-
+@font-face {
+  font-family: 'Euskamini';
+  src: url("/fonts/EUSKAMINI-Micro.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Sablier';
+  src: url("/fonts/sablier-5.otf") format("opentype");
+}
+.euskamini {
+  font-family: 'Euskamini';
+  font-weight: normal;
+}
+.sablier {
+  font-family: 'Sablier';
+  font-weight: normal;
+}
 .clean {
-  font-family: 'Clean Marker'
+  font-family: 'Clean Marker';
+  font-weight: normal;
 }
 .edlinger {
   font-family: 'Edlinger', sans-serif;
