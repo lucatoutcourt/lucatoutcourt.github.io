@@ -32,7 +32,7 @@
 }
 @font-face {
   font-family: 'Edlinger';
-  src: url("/fonts/Edlinger-Regular.otf") format("opentype");
+  src: url("/fonts/Edlinger.otf") format("opentype");
 }
 @font-face {
   font-family: 'Euskamini';
@@ -42,10 +42,18 @@
   font-family: 'Sablier';
   src: url("/fonts/sablier-5.otf") format("opentype");
 }
+@font-face {
+  font-family: 'Librex';
+  src: url("/fonts/LibrexAAE-Regular.otf") format("opentype");
+}
 .euskamini {
   font-family: 'Euskamini';
   font-weight: normal;
   letter-spacing: -.05em;
+}
+.librex {
+  font-family: 'Librex';
+  font-weight: normal;
 }
 .sablier {
   font-family: 'Sablier';
@@ -213,7 +221,9 @@ h1 {
 .spaceline {
   height: 2rem;
 }
-
+.update {
+  line-height: 1.3em;
+}
 
 
 
