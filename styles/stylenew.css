@@ -179,7 +179,10 @@ h1 {
   max-width: 90vw;
 }
 
-
+.ptb0 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
 
 .massive {
   font-size: 5rem;
